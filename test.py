@@ -11,7 +11,7 @@ class VideoToAudio(QWidget):
 
     def initUI(self):
         self.setGeometry(200, 200, 500, 300)
-        self.setWindowTitle('Video to Audio Converter')
+        self.setWindowTitle('Convertidor de Audio a Video')
 
         self.label = QLabel('Seleccionar archivo de video:', self)
         self.label.move(50, 50)
